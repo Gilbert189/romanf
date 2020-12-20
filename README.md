@@ -24,7 +24,7 @@ M : ]
 ## Conversion to Arabic
 Of course, you can use the raw Roman numbers, but whats the fun of that if you can use Arabic numerals?
 Unfortunately, Roman numerals isn't really standardized, so the scripts you made by hand might not work.
-I'm using the Roman Python library to encode and decode. (If you don't have one, it will automatically install it using pip (I hope))
+I'm using the Roman Python library to encode and decode numerals. (If you don't have one, it will automatically install it using pip (I guess))
 
 To convert romanF to number, take this cat program:
 
