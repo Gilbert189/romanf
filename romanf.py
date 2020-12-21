@@ -21,7 +21,7 @@ except:
 romanScript = ""
 for i in nScript:
 	try:
-		romanScript += roman.toRoman(int(i))
+		romanScript += " ".join(roman.toRoman(int(i)))
 	except:
 		romanScript += i
 #print(romanScript)
