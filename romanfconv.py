@@ -10,7 +10,7 @@ else:
 import sys
 try:
 	with open(sys.argv[1]) as file:
-		nScript += line.replace("/n","")
+		nScript = " ".join([line.strip() for line in file])
 except:
 	nScript = input("Code: ")
 try:
