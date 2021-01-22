@@ -8,7 +8,7 @@ else:
 	except:
 		pip.main(["install","roman"])
 import sys
-size = 256
+size = 30000
 cells = [0]*size
 pointer = 0
 try:
