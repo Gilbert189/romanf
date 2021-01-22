@@ -1,5 +1,5 @@
 # romanF
-An esolang using Roman numerals.
+An esolang using Roman numerals, based on BF. 
 
 ## Symbols
 ```
